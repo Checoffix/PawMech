@@ -1,0 +1,1697 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7178d9f04c0da6a44b3d8ee71d549b60, type: 3}
+  m_Name: WavesSystem
+  m_EditorClassIdentifier: Assembly-CSharp::WaveSystem
+  _waveEvents:
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 2
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 1
+    entryMovement: {fileID: 11400000, guid: 6979941ac2062044c80ec22812994fc1, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: 6.5, y: -1.5}
+    spacing: 0
+    retreatMovement: {fileID: 11400000, guid: c794e68a26321f24fa7b4708f418e3f3, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 490340162082913498, guid: aed0eb1934a3174449546a023f2015e3, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 7
+    entryMovement: {fileID: 11400000, guid: 7c49b5e4705858e4dbbfcc1e65179278, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 3
+    spawnOrigin: {x: 6.5, y: 2}
+    spacing: 0
+    retreatMovement: {fileID: 11400000, guid: c794e68a26321f24fa7b4708f418e3f3, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 4550706447374812416, guid: 75c344f7fa00022448888e6c190c416e, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 7
+    entryMovement: {fileID: 11400000, guid: 7c49b5e4705858e4dbbfcc1e65179278, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 3
+    spawnOrigin: {x: 6.5, y: -2}
+    spacing: 0
+    retreatMovement: {fileID: 11400000, guid: a9a7db371736efe4982c4712655ed62c, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 4550706447374812416, guid: 75c344f7fa00022448888e6c190c416e, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 13
+    entryMovement: {fileID: 11400000, guid: 29370de76e6fb0e4d97364fd7d1ae0d8, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: 6.5, y: 1}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: a9a7db371736efe4982c4712655ed62c, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 2
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 13.5
+    entryMovement: {fileID: 11400000, guid: 29370de76e6fb0e4d97364fd7d1ae0d8, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: 6.5, y: 0}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: a9a7db371736efe4982c4712655ed62c, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 14
+    entryMovement: {fileID: 11400000, guid: 29370de76e6fb0e4d97364fd7d1ae0d8, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: 6.5, y: -2}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: a9a7db371736efe4982c4712655ed62c, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 2
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 18
+    entryMovement: {fileID: 11400000, guid: 6c59a28e249fe5d4e9eb4df371ff05d6, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 2
+    spawnOrigin: {x: 6.5, y: 2}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: a9a7db371736efe4982c4712655ed62c, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 490340162082913498, guid: aed0eb1934a3174449546a023f2015e3, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 18
+    entryMovement: {fileID: 11400000, guid: 6979941ac2062044c80ec22812994fc1, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 2
+    spawnOrigin: {x: 6.5, y: -2}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: c794e68a26321f24fa7b4708f418e3f3, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 490340162082913498, guid: aed0eb1934a3174449546a023f2015e3, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 20
+    entryMovement: {fileID: 11400000, guid: 6979941ac2062044c80ec22812994fc1, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 2
+    spawnOrigin: {x: 6.5, y: -3}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: c794e68a26321f24fa7b4708f418e3f3, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 490340162082913498, guid: aed0eb1934a3174449546a023f2015e3, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 20
+    entryMovement: {fileID: 11400000, guid: 6c59a28e249fe5d4e9eb4df371ff05d6, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 2
+    spawnOrigin: {x: 6.5, y: 3}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: a9a7db371736efe4982c4712655ed62c, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 490340162082913498, guid: aed0eb1934a3174449546a023f2015e3, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 20
+    entryMovement: {fileID: 11400000, guid: 29370de76e6fb0e4d97364fd7d1ae0d8, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: 6.5, y: 0}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: a9a7db371736efe4982c4712655ed62c, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 24
+    entryMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    allowToShotFromTheStart: 1
+    retreatTime: -1
+    spawnOrigin: {x: 1, y: 4}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: a9a7db371736efe4982c4712655ed62c, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 4550706447374812416, guid: 75c344f7fa00022448888e6c190c416e, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 24
+    entryMovement: {fileID: 11400000, guid: d49878769235af44e8df42ab82811948, type: 2}
+    allowToShotFromTheStart: 1
+    retreatTime: -1
+    spawnOrigin: {x: 2, y: -4}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: a9a7db371736efe4982c4712655ed62c, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 4550706447374812416, guid: 75c344f7fa00022448888e6c190c416e, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 5
+        inSlope: -5
+        outSlope: -5
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -5
+        outSlope: -5
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 27
+    entryMovement: {fileID: 11400000, guid: 7c49b5e4705858e4dbbfcc1e65179278, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 4
+    spawnOrigin: {x: 7, y: -2}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: 7ee2e30ad7190044cbaae7e2434e03d8, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 490340162082913498, guid: 2d94d0f4ea651094bbeded7732c542a4, type: 3}
+      count: 5
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 2
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 32
+    entryMovement: {fileID: 11400000, guid: e1832865ba28b2a47bfc57931f275e6e, type: 2}
+    allowToShotFromTheStart: 1
+    retreatTime: 2
+    spawnOrigin: {x: 2, y: -3}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: d49878769235af44e8df42ab82811948, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 490340162082913498, guid: aed0eb1934a3174449546a023f2015e3, type: 3}
+      count: 3
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 2
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 32
+    entryMovement: {fileID: 11400000, guid: b397fc53f1f642a40b6efd6f1f287f2d, type: 2}
+    allowToShotFromTheStart: 1
+    retreatTime: 2
+    spawnOrigin: {x: 2, y: 3}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 490340162082913498, guid: aed0eb1934a3174449546a023f2015e3, type: 3}
+      count: 3
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 2
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 39
+    entryMovement: {fileID: 11400000, guid: b397fc53f1f642a40b6efd6f1f287f2d, type: 2}
+    allowToShotFromTheStart: 1
+    retreatTime: 3
+    spawnOrigin: {x: 6, y: 3.5}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 5238087528973774592, guid: dee327f2d1bbafa4f90df9ded5b1af81, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 2
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 39
+    entryMovement: {fileID: 11400000, guid: e1832865ba28b2a47bfc57931f275e6e, type: 2}
+    allowToShotFromTheStart: 1
+    retreatTime: 3
+    spawnOrigin: {x: 6, y: -3.5}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: d49878769235af44e8df42ab82811948, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 5238087528973774592, guid: dee327f2d1bbafa4f90df9ded5b1af81, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 2
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 42
+    entryMovement: {fileID: 11400000, guid: 7c49b5e4705858e4dbbfcc1e65179278, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 3
+    spawnOrigin: {x: 6.5, y: 1.5}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 5238087528973774592, guid: dee327f2d1bbafa4f90df9ded5b1af81, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 2
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 42
+    entryMovement: {fileID: 11400000, guid: 7c49b5e4705858e4dbbfcc1e65179278, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 3
+    spawnOrigin: {x: 6.5, y: -3}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 5238087528973774592, guid: dee327f2d1bbafa4f90df9ded5b1af81, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 2
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 46
+    entryMovement: {fileID: 11400000, guid: fcc9a8c612e5f394e906736073a9a19a, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 3
+    spawnOrigin: {x: 6.5, y: 0}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: 7ee2e30ad7190044cbaae7e2434e03d8, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 5238087528973774592, guid: dee327f2d1bbafa4f90df9ded5b1af81, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 54
+    entryMovement: {fileID: 11400000, guid: 7c49b5e4705858e4dbbfcc1e65179278, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: 7
+    spawnOrigin: {x: 7, y: 0}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 4936220110010273811, guid: a62c550d9de9aec49b8185191fe6d4d7, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 60
+    entryMovement: {fileID: 11400000, guid: d49878769235af44e8df42ab82811948, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: -6, y: -4}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 62
+    entryMovement: {fileID: 11400000, guid: d49878769235af44e8df42ab82811948, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: -5, y: -4}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 64
+    entryMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: -4, y: 4}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 66
+    entryMovement: {fileID: 11400000, guid: d49878769235af44e8df42ab82811948, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: -3, y: -4}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 68
+    entryMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: -2, y: 4}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 70
+    entryMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: -1, y: 4}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 1
+  - _ySpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _xSpawnCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 5
+        outSlope: 5
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 5
+        inSlope: 5
+        outSlope: 5
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    time: 71
+    entryMovement: {fileID: 11400000, guid: d49878769235af44e8df42ab82811948, type: 2}
+    allowToShotFromTheStart: 0
+    retreatTime: -1
+    spawnOrigin: {x: 0, y: -4}
+    spacing: 1
+    retreatMovement: {fileID: 11400000, guid: e2014d2bfe8b11b4c9518bfde7fe110b, type: 2}
+    enemies:
+    - enemyPrefab: {fileID: 7874976425262231696, guid: f071d289979f321429cb5de12277b93d, type: 3}
+      count: 6
